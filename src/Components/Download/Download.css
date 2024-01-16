@@ -1,0 +1,61 @@
+.download-box {
+    border-radius: 5px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto;
+    background-color: var(--Containerbg);
+    ;
+
+}
+
+.allqrcards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4rem;
+}
+
+.qrcard {
+    border-radius: 10px;
+    width: 90%;
+    padding: 2rem 0rem;
+}
+
+.qrcard img {
+    width: 50%;
+}
+
+.qrcard button {
+    width: 50%;
+    padding: 12px;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    margin:  auto;
+    font-size: 1rem;
+    color: white;
+    background-color: var(--buttons);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.imgStyle {
+    display: flex;
+    transform: scale(2);
+    margin: 1.5rem;
+    color: black;
+}
+
+.qrcardTitle {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
