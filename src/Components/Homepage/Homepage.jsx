@@ -10,7 +10,8 @@ import Download from "../Download/Download";
 const Homepage = () => {
     const youtubeVideoUrl = 'https://www.youtube.com/watch?v=YDsqedqmF84';
     const videoId = youtubeVideoUrl.split('v=')[1];
-
+    
+    
 
     return (
         <>
@@ -18,8 +19,8 @@ const Homepage = () => {
             <div className="vision">
                 <Slide left>
                     <div className="vision-text">
-                        <Typography sx={{ fontWeight: 'bold' }} variant="h3">A crypto wallet & <br /> gateway to <br /> blockchain World</Typography>
-                        <Typography sx={{ marginTop: '3%', fontSize: '1.1rem' }}> Enhance your user experience with BitWallet, the key to blockchain world</Typography>
+                        <h1 className="title">A crypto wallet & <br /> gateway to <br /> blockchain World</h1>
+                        <p className="para"> Enhance your user experience with BitWallet, the key to blockchain world</p>
                         <button>Download</button>
                     </div>
                 </Slide>
@@ -31,7 +32,7 @@ const Homepage = () => {
             <Information />
             <h1 className="yt-title">What is Bit Wallet</h1>
             <div className="youtube">
-                <Youtube videoId={videoId} />
+                <Youtube  videoId={videoId} />
             </div>
             <Features />
             <Download />

@@ -7,6 +7,15 @@
     width: 90%;
 }
 
+.title{
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.para{
+    font-size: 1.1rem;
+    margin-top: 3%;
+}
+
 .vision-text {
     display: flex;
     width: 60%;
@@ -26,7 +35,6 @@
 
 .image {
     display: flex;
-
     width: 50%;
 }
 
@@ -43,7 +51,44 @@
 .youtube {
     display: flex;
     justify-content: center;
+    width: 100%;
     margin-top: 5%;
     margin-bottom: 10%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .vision{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 25%;
+    }
+
+    .vision-text{
+        width: 90%;
+    }
+.title{
+    font-size: 2rem;
+}
+.para{
+    font-size: 0.8rem;
+
+}
+.vision-text button{
+    font-size: 0.6rem;
+    padding: 0.5rem;
+    width: 25%;
+    margin-top: 5%;
+}
+
+.yt-title{
+    margin-top: 30%;
+}
+.youtube{
+    margin-bottom: 30%;
+}
 
 }

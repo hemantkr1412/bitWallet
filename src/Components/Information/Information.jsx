@@ -41,7 +41,7 @@ const Information = () => {
                 ))}
                 {data2.map((item, index) => (
                     <div key={index} className="content2">
-                        <div className="content-img2">
+                        <div className="content-img">
                             <img src={item.img} alt={item.title} />
                         </div>
                         <Slide right>

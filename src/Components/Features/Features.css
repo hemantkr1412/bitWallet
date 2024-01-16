@@ -13,7 +13,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 15px;
-
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 4rem;
@@ -47,4 +46,12 @@
     font-weight: bold;
   }
   
-  
+  @media only screen and (max-width: 768px){
+  .box{
+    width: 90%;
+    margin-bottom: 30%;
+  }
+  .card{
+    width: 90%;
+  }
+  }
